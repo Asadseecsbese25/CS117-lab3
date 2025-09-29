@@ -17,6 +17,5 @@ Comparison Table
   | Feature | Assembly Example | Python Example | Notes |
   |---------|------------------|----------------|-------|
   |Variable storage|mov eax| x=5 | Assembly stores directly into registers(low-level), while python uses variables in memory(high-level) |
-  |Printing Output|int 0x80
-  mov eax, 1| print()| assembly requires system calls, python has built in features|
+  |Printing Output|int 0x80 mov eax, 1| print()| assembly requires system calls, python has built in features|
   |Arithmetic|add ax, bx | x+y | Assembly operates on registers directly. Python handles expressions sybolically|
